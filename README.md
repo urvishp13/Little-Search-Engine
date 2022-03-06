@@ -28,8 +28,8 @@ To test the program, access the contents of this repository as appropriate for y
 If running the program using the command line, go into the `bin` 
 folder of this repo and type `java seach.LittleSearchEngineDriver`--as the .class files are already there.
 
-To access the document files (.txt files) when running the program, enter the file that has the full file names (eg. <file_name>.txt) of 
+To access the document files (.txt files) when running the program, enter the file that has the full file names (eg. `<file_name>.txt`) of 
 the files to be used--if using the documents I used to test the code, this would be `docs.txt`. In order to use this file, 
 you will have to backout/follow-directory-paths until you are 
 in the directory of that file (eg. in the command line, you'll have to use `../data/<file_name>.txt`; in Eclipse, you'll have to use 
-`data/<file_name>.txt`, etc.). ***Be sure to use the file that has all the file names in it and not the individual file documents.***
+`data/<file_name>.txt`, etc.). **Be sure to use the file that has all the file names in it and not the individual file documents.**
