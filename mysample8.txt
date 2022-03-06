@@ -1,0 +1,10 @@
+crazy
+
+Populates the scalars and arrays lists with symbols for scalar and array
+variables in the expression. For every variable, a SINGLE symbol is created and stored,
+even if it appears more than once in the expression.
+At this time, values for all variables are set to
+zero - they will be loaded from a file in the loadSymbolValues method.
+
+KEY POINT: There may be any number of spaces or tabs BETWEEN ANY PAIR of tokens in the expression. 
+Tokens are variable names, constants, parentheses, square brackets, and operators.

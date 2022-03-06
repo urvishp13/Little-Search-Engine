@@ -1,0 +1,39 @@
+crazy crazy crazy crazy crazy crazy crazy crazy
+
+This is a hash table of all keywords. The key is the actual keyword, and the associated value is
+an array list of all occurrences of the keyword in documents. The array list is maintained in descending
+order of occurrence frequencies.
+
+This is a hash table of all keywords. The key is the actual keyword, and the associated value is
+an array list of all occurrences of the keyword in documents. The array list is maintained in descending
+order of occurrence frequencies.
+
+This is a hash table of all keywords. The key is the actual keyword, and the associated value is
+an array list of all occurrences of the keyword in documents. The array list is maintained in descending
+order of occurrence frequencies.
+
+This is a hash table of all keywords. The key is the actual keyword, and the associated value is
+an array list of all occurrences of the keyword in documents. The array list is maintained in descending
+order of occurrence frequencies.
+
+Merges the keywords for a single document into the master keywordsIndex
+hash table. For each keyword, its Occurrence in the current document
+must be inserted in the correct place (according to descending order of
+frequency) in the same keyword's Occurrence list in the master hash table. 
+This is done by calling the insertLastOccurrence method.
+
+Merges the keywords for a single document into the master keywordsIndex
+hash table. For each keyword, its Occurrence in the current document
+must be inserted in the correct place (according to descending order of
+frequency) in the same keyword's Occurrence list in the master hash table. 
+This is done by calling the insertLastOccurrence method.
+
+Merges the keywords for a single document into the master keywordsIndex
+hash table. For each keyword, its Occurrence in the current document
+must be inserted in the correct place (according to descending order of
+frequency) in the same keyword's Occurrence list in the master hash table. 
+This is done by calling the insertLastOccurrence method.
+
+This class builds an index of keywords. Each keyword maps to a set of documents in
+which it occurs, with frequency of occurrence in each document. Once the index is built,
+the documents can searched on for keywords.

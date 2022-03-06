@@ -1,0 +1,29 @@
+crazy crazy
+
+Merges the keywords for a single document into the master keywordsIndex
+hash table. For each keyword, its Occurrence in the current document
+must be inserted in the correct place (according to descending order of
+frequency) in the same keyword's Occurrence list in the master hash table. 
+This is done by calling the insertLastOccurrence method.
+
+Merges the keywords for a single document into the master keywordsIndex
+hash table. For each keyword, its Occurrence in the current document
+must be inserted in the correct place (according to descending order of
+frequency) in the same keyword's Occurrence list in the master hash table. 
+This is done by calling the insertLastOccurrence method.
+
+Merges the keywords for a single document into the master keywordsIndex
+hash table. For each keyword, its Occurrence in the current document
+must be inserted in the correct place (according to descending order of
+frequency) in the same keyword's Occurrence list in the master hash table. 
+This is done by calling the insertLastOccurrence method.
+
+Given a word, returns it as a keyword if it passes the keyword test,
+otherwise returns null. A keyword is any word that, after being stripped of any
+TRAILING punctuation, consists only of alphabetic letters, and is not
+a noise word. All words are treated in a case-INsensitive manner.
+
+Given a word, returns it as a keyword if it passes the keyword test,
+otherwise returns null. A keyword is any word that, after being stripped of any
+TRAILING punctuation, consists only of alphabetic letters, and is not
+a noise word. All words are treated in a case-INsensitive manner.

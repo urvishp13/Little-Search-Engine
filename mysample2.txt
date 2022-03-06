@@ -1,0 +1,25 @@
+crazy crazy crazy
+
+This class builds an index of keywords. Each keyword maps to a set of documents in
+which it occurs, with frequency of occurrence in each document. Once the index is built,
+the documents can searched on for keywords.
+
+This class builds an index of keywords. Each keyword maps to a set of documents in
+which it occurs, with frequency of occurrence in each document. Once the index is built,
+the documents can searched on for keywords.
+
+This method indexes all keywords found in all the input documents. When this
+method is done, the keywordsIndex hash table will be filled with all keywords,
+each of which is associated with an array list of Occurrence objects, arranged
+in decreasing frequencies of occurrence.
+
+This method indexes all keywords found in all the input documents. When this
+method is done, the keywordsIndex hash table will be filled with all keywords,
+each of which is associated with an array list of Occurrence objects, arranged
+in decreasing frequencies of occurrence.
+
+Inserts the last occurrence in the parameter list in the correct position in the
+same list, based on ordering occurrences on descending frequencies. The elements
+0..n-2 in the list are already in the correct order. Insertion of the last element
+(the one at index n-1) is done by first finding the correct spot using binary search, 
+then inserting at that spot.
