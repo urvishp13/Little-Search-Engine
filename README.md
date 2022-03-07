@@ -26,7 +26,7 @@ To test the program, access the contents of this repository as appropriate for y
 (eg. command line, console in Eclipse, etc.). 
 
 If running the program using the command line, go into the `bin` 
-folder of this repo and type `java seach.LittleSearchEngineDriver`--as the .class files are already there.
+folder of this repo and type `java search.LittleSearchEngineDriver`--as the .class files are already there.
 
 To access the document files (.txt files) when running the program, enter the file that has the full file names (eg. `<file_name>.txt`) of 
 the files to be used--if using the documents I used to test the code, enter `mydocs.txt`. In order to use this file, 
