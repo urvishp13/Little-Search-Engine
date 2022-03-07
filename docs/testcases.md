@@ -1,5 +1,19 @@
 # Test Cases
 
+## insertLastOccurrence()
+
+These are the test cases that were used with ONE word--if these tests pass with one word, the orderings of the document-occurrence pairs 
+for all words will be correct.
+
+|   |Insertion| Details |
+|:-:|:-------------:|:-:|
+|1|`at index 0`|
+|2|`at last index`|
+|3|`in between the list`|
+|4|`a duplicate at the end`| duplicate should be listed second |
+|5|`2 duplicates at the end`| 3 of the same frequency |
+|6|`2 duplicate in the middle`| 3 of the same frequency |
+
 ## top5search()
 
 Enter these words to get the number of documents in the top five as listed.
