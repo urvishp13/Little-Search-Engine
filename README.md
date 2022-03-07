@@ -6,9 +6,10 @@ This project is solely written in Java. Please run it using Java 8.
 
 This project was an assignment given to Rutgers CS112 Data Structures students in the Fall of 2014. 
 It was redone in November 2021 with no recollection
-of how the project was initially completed. The focus of this project is to scan all the words in any number of documents, gather and
-store them in a database (specifically a Hash Table) so there are no duplications. Each word is associated with the documents and the
-number of times it occurred in those documents and this information is listed in descending order based on the number of occurrences.
+of how the project was initially completed. The focus of this project is to scan all the words in any number of documents and gather and
+store them in a database (specifically a Hash Table) so there are no duplications. Each word is associated with the documents it occurred
+in and the
+number of times it occurred in those documents, and this information is listed in descending order based on the number of occurrences.
 An additional feature of this project is to provide the (maximum) top five COMBINED documents of two words of choice.
 The focus of this project was Hash Tables.
 
@@ -18,7 +19,8 @@ The code written can be found in the [src](https://github.com/urvishp13/Little-S
 `@author Urvish Patel` tag before Classes to see the code I have written.
 The code was tested using self-created documents; if you want to create your own document, simply create a text file and 
 populate it with the textual contents of your desire.
-The files for the documents I used are in the [data](https://github.com/urvishp13/Little-Search-Engine/tree/main/data) folder. 
+The files for the documents I used are in the [data](https://github.com/urvishp13/Little-Search-Engine/tree/main/data) folder.
+The test cases used are in [this](https://github.com/urvishp13/Little-Search-Engine/blob/main/docs/testcases.md) file. 
 
 ## How to Test
 
