@@ -16,7 +16,8 @@ for all words will be correct.
 
 ## top5search()
 
-Enter these words to get the number of documents in the top five as listed.
+These are some of the words that gather the number of documents listed. The gathered documents are then limited to the top five 
+documents only.
 
 |   |No. of docs| Words |
 |:-:|:---:|:-----------:|
