@@ -38,4 +38,5 @@ the maximum number of occurrences is listed.
 
 For `#3`, in the method description in the source code, there is a condition that has to be met. That condition is:
 "ties in frequency values are broken in favor of the first keyword." This means, if there is a tie in FREQUENCY values for both keywords,
-the DOCUMENT associate with this frequency of the first keyword will be listed first, then that of the second keyword (if space permits).
+the DOCUMENT associate with this frequency of the first keyword will be listed first, then that of the second keyword will be listed
+(if space permits).
