@@ -7,12 +7,12 @@ for all words will be correct.
 
 |   |Insertion| Details |
 |:-:|:-------------:|:-:|
-|1|`at index 0`|
-|2|`at last index`|
-|3|`in between the list`|
-|4|`a duplicate at the end`| duplicate should be listed second |
-|5|`2 duplicates at the end`| 3 of the same frequency |
-|6|`2 duplicate in the middle`| 3 of the same frequency |
+|1|at index 0|
+|2|at last index|
+|3|in between the list|
+|4|a duplicate at the end| duplicate should be listed second |
+|5|2 duplicates at the end| 3 of the same frequency |
+|6|2 duplicate in the middle| 3 of the same frequency |
 
 ## top5search()
 
