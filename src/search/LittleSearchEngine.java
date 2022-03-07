@@ -191,7 +191,7 @@ public class LittleSearchEngine {
 	 */
 	private void printKeywordsHashMap() {
 		for (String keyword : keywordsIndex.keySet()) {
-			System.out.println(keyword + ": " + keywordsIndex.get(keyword));
+			//System.out.println(keyword + ": " + keywordsIndex.get(keyword));
 		}
 	}
 	
@@ -211,7 +211,7 @@ public class LittleSearchEngine {
 		
 		// Tokenize the word with the punctuations being the delimiters (don't retain the delimiters)
 		String delims = ".,?:;!";
-		System.out.println("word: " + word);
+		//System.out.println("word: " + word);
 		word = word.toLowerCase();
 		StringTokenizer st = new StringTokenizer(word, delims);
 		// Grab the first token i.e. the word stripped of any ending punctuation
@@ -348,15 +348,15 @@ public class LittleSearchEngine {
 		// Add all the Occurrences from kw1's Occurrence List to the Occs result List, don't need to use
 		//		insertLastOccurrence because the Occurrences are already in order
 		top5SearchResultOccs = kw1Occs;
-		System.out.println("after adding kw1's occs to search results: " + top5SearchResultOccs);
+		//System.out.println("after adding kw1's occs to search results: " + top5SearchResultOccs);
 		// Add all the Occurrences from kw2's Occurrence List (if it exists) to the Occs result List
 		for (int i = 0; kw2Occs != null && i < kw2Occs.size(); i++) {
 			Occurrence occ = kw2Occs.get(i);
 			top5SearchResultOccs.add(occ);
 			// checking to see if, after passing same reference of List, add values gets added to the new reference's List
-			System.out.println("after adding ONE of kw2's occs to search results: " + top5SearchResultOccs);
+			//System.out.println("after adding ONE of kw2's occs to search results: " + top5SearchResultOccs);
 			insertLastOccurrence(top5SearchResultOccs); // used for putting the recently added Occurrence in the right spot
-			System.out.println("occs sorted: " + top5SearchResultOccs);
+			//System.out.println("occs sorted: " + top5SearchResultOccs);
 			
 		}
 		

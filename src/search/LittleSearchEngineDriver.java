@@ -27,8 +27,11 @@ public class LittleSearchEngineDriver {
 				String firstWord = keyboard.readLine();
 				System.out.print("Please enter the second word of your choice => ");
 				String secondWord = keyboard.readLine();
-				System.out.println("docs for words: " + firstWord + ", " + secondWord + ": " 
-						+ lse.top5search(firstWord, secondWord) );
+				System.out.print("top 5 docs for words: " + firstWord + ", " + secondWord + ": ");
+				if (lse.top5search(firstWord, secondWord) == null)
+					System.out.println("no documents AMONGST these two words!");
+				else
+					System.out.println(lse.top5search(firstWord, secondWord));
 				System.out.println();
 			}
 			else if (answer.toLowerCase().equals("no")) {
