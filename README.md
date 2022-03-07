@@ -9,7 +9,7 @@ It was redone in November 2021 with no recollection
 of how the project was initially completed. The focus of this project is to scan all the words in any number of documents, gather and
 store them in a database (specifically a Hash Table) so there are no duplications. Each word is associated with the documents and the
 number of times it occurred in those documents and this information is listed in descending order based on the number of occurrences.
-An additional feature of this project is to provide the top five documents of which two words of choice are in.
+An additional feature of this project is to provide the (maximum) top five COMBINED documents of two words of choice.
 The focus of this project was Hash Tables.
 
 ## Code & Test Cases
@@ -29,7 +29,10 @@ If running the program using the command line, go into the `bin`
 folder of this repo and type `java seach.LittleSearchEngineDriver`--as the .class files are already there.
 
 To access the document files (.txt files) when running the program, enter the file that has the full file names (eg. `<file_name>.txt`) of 
-the files to be used--if using the documents I used to test the code, this would be `mydocs.txt`. In order to use this file, 
+the files to be used--if using the documents I used to test the code, enter `mydocs.txt`. In order to use this file, 
 you will have to backout/follow-directory-paths until you are 
 in the directory of that file (eg. in the command line, you'll have to use `../data/<file_name>.txt`; in Eclipse, you'll have to use 
-`data/<file_name>.txt`, etc.). **Be sure to use the file that has all the file names in it and not the individual file documents.**
+`data/<file_name>.txt`, etc.). **Be sure to use the file that has ALL the file names in it and not the individual file documents.**
+
+You will also have to enter the "noisewords" file which are "commonplace words (such as 'the')". The name of this file is `noisewords.txt`
+and access it using the method outlined in the previous paragraph.
