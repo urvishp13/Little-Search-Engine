@@ -11,8 +11,7 @@ Enter these words to get the number of documents in the top five as listed.
 |3|5|`operators`,`place`|
 |4|>5|`otherwise`,`descending`|
 
-</br>
-These test cases consider other possibilities.
+The following test cases consider other possibilities.
 
 |   |Possibility| Words |
 |:-:|:---:|:-----------:|
