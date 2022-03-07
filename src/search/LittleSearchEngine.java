@@ -97,7 +97,7 @@ public class LittleSearchEngine {
 			HashMap<String,Occurrence> kws = loadKeyWords(docFile);
 			mergeKeyWords(kws);
 		}
-		printKeywordsHashMap();
+		//printKeywordsHashMap();
 	}
 
 	/**
@@ -191,7 +191,7 @@ public class LittleSearchEngine {
 	 */
 	private void printKeywordsHashMap() {
 		for (String keyword : keywordsIndex.keySet()) {
-			//System.out.println(keyword + ": " + keywordsIndex.get(keyword));
+			System.out.println(keyword + ": " + keywordsIndex.get(keyword));
 		}
 	}
 	
