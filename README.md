@@ -20,7 +20,8 @@ The code written can be found in the [src](https://github.com/urvishp13/Little-S
 The code was tested using self-created documents; if you want to create your own document, simply create a text file and 
 populate it with the textual contents of your desire.
 The files for the documents I used are in the [data](https://github.com/urvishp13/Little-Search-Engine/tree/main/data) folder.
-The test cases used are in [this](https://github.com/urvishp13/Little-Search-Engine/blob/main/docs/testcases.md) file. 
+The test cases used are in [this](https://github.com/urvishp13/Little-Search-Engine/blob/main/docs/testcases.md) file.
+The problem specs are in [this](https://github.com/urvishp13/Little-Search-Engine/blob/main/docs/problem_specs.pdf) file. 
 
 ## How to Test
 
