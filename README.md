@@ -10,7 +10,8 @@ of how the project was initially completed. The focus of this project is to scan
 store them in a Hash Table. Each word is associated with the documents it occurred
 in and the
 number of times it occurred in those documents.
-An additional feature of this project is to provide the COMBINED top five documents two user-inputted words occur in; 
+An additional feature of this project is to provide the COMBINED top five documents two user-inputted words occur in among the documents
+used; 
 if both words occur in a
 document, the number of times they occur is not combined.
 The focus of this project was Hash Tables.
@@ -27,8 +28,8 @@ The problem specs are in [this](https://github.com/urvishp13/Little-Search-Engin
 
 ## How to Test
 
-To test the program, access the contents of this repository as appropriate for you and follow the instructions presented to you in the 
-(eg. command line, console in Eclipse, etc.). 
+To test the program, follow the instructions presented to you in the 
+(eg. command line, console in Eclipse, etc.) when running the program. 
 
 If running the program using the command line, go into the `bin` 
 folder of this repo and type `java search.LittleSearchEngineDriver`--as the .class files are already there.
@@ -43,9 +44,9 @@ Inside this file, make sure each .txt file has the correct path to it; they shou
 used to access the file with all the document file names, the only difference being the name of the file. 
 For use-as-is purposes, the [mydocs.txt](https://github.com/urvishp13/Little-Search-Engine/blob/main/data/mydocs.txt) 
 file in this repository has its files
-with the paths that would allow execution of the code from the command line; if you are running this code in a different environment, 
+with the paths that will allow execution of the code from the command line; if you are running this code in a different environment, 
 feel free to 
 change the paths of all the files in this folder. 
 
 You will also have to enter the "noisewords" file which are "commonplace words (such as 'the')". The name of this file is `noisewords.txt`
-; input it using the file-path method outlined in the previous paragraph.
+; input it using the directory-path method outlined in the previous paragraph.
