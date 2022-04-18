@@ -10,7 +10,8 @@ of how the project was initially completed. The focus of this project is to scan
 store them in a Hash Table. Each word is associated with the documents it occurred
 in and the
 number of times it occurred in those documents.
-An additional feature of this project is to provide the top five documents two user-inputted words occur in; if both words occur in a
+An additional feature of this project is to provide the COMBINED top five documents two user-inputted words occur in; 
+if both words occur in a
 document, the number of times they occur is not combined.
 The focus of this project was Hash Tables.
 
