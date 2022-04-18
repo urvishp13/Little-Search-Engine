@@ -34,11 +34,12 @@ The following test cases consider other possibilities.
 |2|2 (3) repeat documents|`otherwise`,`descending`|
 |3|ties in frequencies|`built`,`scalars`|
 
-In the cases of `#1` and `#2`, the repeated documents are not listed multiple times, only the document during the time when it had 
+In the cases of `#1` and `#2`, the repeated documents are not listed multiple times in the top five, 
+only the document during the time when it had 
 the maximum number of occurrences is listed.
 
 For `#3`, in the method description in the source code, there is a condition that has to be met. That condition is:
 "ties in frequency values are broken in favor of the first keyword." This means, if there is a tie in FREQUENCY values for both 
 keywords,
 the DOCUMENT associate with this frequency of the first keyword will be listed first, then that of the second keyword will be listed
-second (if space in the top five permits).
+second (if space in the top five is available).
