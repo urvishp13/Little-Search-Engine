@@ -16,8 +16,8 @@ for all words will be correct.
 
 ## top5search()
 
-These are some of the words that gather the number of documents listed. The gathered documents are then limited to the top five 
-documents only.
+These are some of the words that gather the number of documents listed. The gathered documents are then limited to the 
+documents with the top five frequencies.
 
 |   |No. of docs| Words |
 |:-:|:---:|:-----------:|
@@ -38,6 +38,7 @@ In the cases of `#1` and `#2`, the repeated documents are not listed multiple ti
 the maximum number of occurrences is listed.
 
 For `#3`, in the method description in the source code, there is a condition that has to be met. That condition is:
-"ties in frequency values are broken in favor of the first keyword." This means, if there is a tie in FREQUENCY values for both keywords,
-the DOCUMENT associate with this frequency of the first keyword will be listed first, then that of the second keyword will be listed
-(if space permits).
+"ties in frequency values are broken in favor of the first keyword." This means, if there is a tie in **FREQUENCY** values for both 
+keywords,
+the **DOCUMENT** associate with this frequency of the first keyword will be listed first, then that of the second keyword will be listed
+second (if space in the top five permits).
