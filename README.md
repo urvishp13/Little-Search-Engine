@@ -6,11 +6,12 @@ This project is solely written in Java. Please run it using Java 8.
 
 This project was an assignment given to Rutgers CS112 Data Structures students in the Fall of 2014. 
 It was redone in November 2021 with no recollection
-of how the project was initially completed. The focus of this project is to scan all the words in any number of documents and gather and
-store them in a database (specifically a Hash Table) so there are no duplications. Each word is associated with the documents it occurred
+of how the project was initially completed. The focus of this project is to scan all the words from any number of documents and gather and
+store them in a Hash Table. Each word is associated with the documents it occurred
 in and the
-number of times it occurred in those documents, and this information is listed in descending order based on the number of occurrences.
-An additional feature of this project is to provide the (maximum) top five COMBINED documents of two words of choice.
+number of times it occurred in those documents.
+An additional feature of this project is to provide the top five documents two user-inputted words occur in; if both words occur in a
+document, the number of times they occur is not combined.
 The focus of this project was Hash Tables.
 
 ## Code & Test Cases
@@ -31,19 +32,19 @@ To test the program, access the contents of this repository as appropriate for y
 If running the program using the command line, go into the `bin` 
 folder of this repo and type `java search.LittleSearchEngineDriver`--as the .class files are already there.
 
-To access the document files (.txt files) when running the program, enter the file that has the full file names (eg. `<file_name>.txt`) of 
-the files to be used--if using the documents I used to test the code, this file is `mydocs.txt`. In order to use this file, 
+To access the document files when running the program, **enter the file name that has all the file names you
+want to read data from, do not enter the names of the individual files** (eg. in my case, this file is `mydocs.txt`). 
+In order to use this file, 
 you will have to backout/follow-directory-paths until you are 
-in the directory of that file (eg. in the command line, you'll have to use `../data/<file_name>.txt`; in Eclipse, you'll have to use 
-`data/<file_name>.txt`, etc.). **Be sure to use the file that has ALL the file names in it and not the individual file documents.**
-Inside this file, make sure each document (.txt) file has the correct path to it; they should have a similar path as that
-used to access the file with all the document file names, with the only difference being the file name. 
-For the purposes of use-as-is, the [mydocs.txt](https://github.com/urvishp13/Little-Search-Engine/blob/main/data/mydocs.txt) 
+in the directory of this file (eg. in the command line, you'll have to use `../data/mydocs.txt`; in Eclipse, you'll have to use 
+`data/mydocs.txt`, etc.).
+Inside this file, make sure each .txt file has the correct path to it; they should have a similar path as that
+used to access the file with all the document file names, the only difference being the name of the file. 
+For use-as-is purposes, the [mydocs.txt](https://github.com/urvishp13/Little-Search-Engine/blob/main/data/mydocs.txt) 
 file in this repository has its files
 with the paths that would allow execution of the code from the command line; if you are running this code in a different environment, 
 feel free to 
 change the paths of all the files in this folder. 
 
-
 You will also have to enter the "noisewords" file which are "commonplace words (such as 'the')". The name of this file is `noisewords.txt`
-and access it using the method outlined in the previous paragraph.
+; input it using the file-path method outlined in the previous paragraph.
