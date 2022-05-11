@@ -4,9 +4,7 @@ This project is solely written in Java. Please run it using Java 8.
 
 ## Overview
 
-This project was an assignment given to Rutgers CS112 Data Structures students in the Fall of 2014. 
-It was redone in November 2021 with no recollection
-of how the project was initially completed. The focus of this project is to scan all the words from all documents used and gather and
+The focus of this project is to scan all the words from all documents used and gather and
 store them in a Hash Table. Each word is associated with the documents it occurred
 in and the
 number of times it occurred in those documents.
@@ -49,3 +47,8 @@ change the paths of all the files in this folder.
 
 You will also have to enter the "noisewords" file which has "commonplace words (such as 'the')". The name of this file is `noisewords.txt`;
  input it using the directory-path method outlined in the previous paragraph.
+
+
+This project was an assignment given to Rutgers CS112 Data Structures students in the Fall of 2014. 
+It was redone in November 2021 with no recollection
+of how the project was initially completed. 
