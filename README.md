@@ -48,6 +48,7 @@ change the paths of all the files in this folder.
 You will also have to enter the "noisewords" file which has "commonplace words (such as 'the')". The name of this file is `noisewords.txt`;
  input it using the directory-path method outlined in the previous paragraph.
 
+<hr>
 
 This project was an assignment given to Rutgers CS112 Data Structures students in the Fall of 2014. 
 It was redone in November 2021 with no recollection
